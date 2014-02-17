@@ -5,7 +5,23 @@ public class MyDuck
     static QuackBehaviour quackBehaviour;
     static FlyBehaviour flyBehaviour;
 
-    public static void display() {
+    public static QuackBehaviour getQuackBehaviour() {
+		return quackBehaviour;
+	}
+
+	public static void setQuackBehaviour(QuackBehaviour quackBehaviour) {
+		MyDuck.quackBehaviour = quackBehaviour;
+	}
+
+	public static FlyBehaviour getFlyBehaviour() {
+		return flyBehaviour;
+	}
+
+	public static void setFlyBehaviour(FlyBehaviour flyBehaviour) {
+		MyDuck.flyBehaviour = flyBehaviour;
+	}
+
+	public void display() {
         System.out.println("DISPLAY");
     }
 
