@@ -14,7 +14,7 @@ public class ServiceLane {
         	int i = 0;
         	int length = 0;
         	int num_cases = 0;
-        	ArrayList<Integer> width = new ArrayList<>();
+        	ArrayList<Integer> width = new ArrayList<Integer>();
         	String[] testcases = null;
         	br = new BufferedReader(new FileReader("H:\\GitHub\\HackerRank\\src\\servicelane.txt"));
         	//br = new BufferedReader(new InputStreamReader(System.in));
