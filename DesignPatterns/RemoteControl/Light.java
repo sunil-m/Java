@@ -2,7 +2,7 @@ package RemoteControl;
 
 public class Light {
 	
-	public void Light() {}
+	public Light() {}
 	
     public void on() {
     	System.out.println("Light is on");
